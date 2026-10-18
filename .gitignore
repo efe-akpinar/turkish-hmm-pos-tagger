@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (download from the official source, see README)
+*.conllu
+*.csv
+*.tsv
+*.zip
+*.gz
+*.npy
+*.npz
+*.pkl
+data/
+
+# Model artifacts
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoint-*/
+*.faiss
+*.index
+
+# OS / editors
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+.claude/
+CLAUDE.md
